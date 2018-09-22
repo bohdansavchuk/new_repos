@@ -26,22 +26,51 @@ a{
     margin: 0px;
     padding: 0px;
 }
-.class-1, .class-2 {
-    margin: 30px;
+
+body{
+    height: 200vh;
+}
+/*
+[class*="class-1"]{
     width: 100px;
     height: 100px;
-    background: red;
-    }
-.class-1 {
-    margin: 10px;
-    width: 50px;
-    height: 50px;
-    background: green;
+    top: 10px;
+    left: 10px;
+    position: absolute;
 }
-li {
-    display: inline-block;
-    background: 4px;
-    border: 1px solid black;
-    margin: 0px;
+*/
+
+.class-11{
+    background-color: darkgreen;
+    width: 400px;
+    height: 200px;
+    position: relative;
 }
 
+.class-12{
+    height: 75px;
+    width: 75px;
+    top: 40px;
+    right: 94px;
+    background-color: grey;
+    position: absolute;
+    
+}
+.class-15{
+    height: 75px;
+    width: 75px;
+    top: 40px;
+    left: 124px;
+    background-color: red;
+    position: absolute;
+   
+}
+.class-16{
+    height: 150px;
+    width: 40px;
+    top: 50px;
+    left: 60px;
+    background-color: blue;
+    position: absolute;
+   
+}
